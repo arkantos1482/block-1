@@ -1,0 +1,7 @@
+syntax = "proto3";
+package arkantos1482.blocktest1.blocktest1;
+
+option go_package = "github.com/arkantos1482/block-test-1/x/blocktest1/types";
+
+// Msg defines the Msg service.
+service Msg {}

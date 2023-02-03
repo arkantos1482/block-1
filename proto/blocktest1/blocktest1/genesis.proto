@@ -1,0 +1,12 @@
+syntax = "proto3";
+package arkantos1482.blocktest1.blocktest1;
+
+import "gogoproto/gogo.proto";
+import "blocktest1/blocktest1/params.proto";
+
+option go_package = "github.com/arkantos1482/block-test-1/x/blocktest1/types";
+
+// GenesisState defines the blocktest1 module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
