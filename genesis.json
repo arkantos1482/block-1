@@ -1,6 +1,6 @@
 {
-  "genesis_time": "0001-01-01T00:00:00Z",
-  "chain_id": "blocktest-1",
+  "genesis_time": "2023-01-30T13:10:48.845566374Z",
+  "chain_id": "cosm1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -44,16 +44,16 @@
       "supply": [],
       "denom_metadata": []
     },
-    "blocktest1": {
-      "params": {}
-    },
     "capability": {
       "index": "1",
       "owners": []
     },
+    "cosm1": {
+      "params": {}
+    },
     "crisis": {
       "constant_fee": {
-        "denom": "my",
+        "denom": "mine",
         "amount": "1000"
       }
     },
@@ -93,7 +93,7 @@
       "deposit_params": {
         "min_deposit": [
           {
-            "denom": "my",
+            "denom": "mine",
             "amount": "10000000"
           }
         ],
@@ -178,7 +178,7 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "my",
+        "mint_denom": "mine",
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
@@ -204,7 +204,7 @@
         "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "my",
+        "bond_denom": "mine",
         "min_commission_rate": "0.000000000000000000"
       },
       "last_total_power": "0",
