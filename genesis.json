@@ -1,6 +1,6 @@
 {
   "genesis_time": "2023-01-30T13:10:48.845566374Z",
-  "chain_id": "cosm1",
+  "chain_id": "blocktest1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -48,7 +48,7 @@
       "index": "1",
       "owners": []
     },
-    "cosm1": {
+    "blocktest1": {
       "params": {}
     },
     "crisis": {
