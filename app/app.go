@@ -113,7 +113,7 @@ import (
 )
 
 const (
-	AccountAddressPrefix = "my"
+	AccountAddressPrefix = "mine"
 	Name                 = "block-test-1"
 )
 
